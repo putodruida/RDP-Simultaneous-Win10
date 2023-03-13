@@ -115,7 +115,9 @@ echo con "B8 00 01 00 00 89 81 38 06 00 00 90"
 echo .
 echo Una vez editado...
 echo .
+echo Ver imagen "Line for edit.png"
 echo .
+echo.
 echo [ENG]
 echo .
 echo Edit with a HEX editor the "termsrv.dll" (Example with HxD)
@@ -126,6 +128,9 @@ echo with "B8 00 01 00 00 89 81 38 06 00 00 90"
 echo .
 echo Once edited...
 echo.
+echo See image "Line for edit.png"
+echo.
+explorer.exe "C:\DISCOS\RDP Simultaneos Win10"
 PAUSE
 
 cls
