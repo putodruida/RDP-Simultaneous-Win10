@@ -92,7 +92,8 @@ md "C:\DISCOS\RDP Simultaneos Win10"
 md "C:\DISCOS\RDP Simultaneos Win10\BACKUP"
 md "C:\DISCOS\RDP Simultaneos Win10\EDITED"
 
-copy %~dp0\Execute.bat "C:\DISCOS\RDP Simultaneos Win10"
+copy "%~dp0\Execute.bat" "C:\DISCOS\RDP Simultaneos Win10"
+copy "%~dp0\Line to edit.png" "C:\DISCOS\RDP Simultaneos Win10"
 copy c:\Windows\System32\termsrv.dll "C:\DISCOS\RDP Simultaneos Win10\BACKUP\termsrv.dll_backup"
 copy c:\Windows\System32\termsrv.dll "C:\DISCOS\RDP Simultaneos Win10"
 
