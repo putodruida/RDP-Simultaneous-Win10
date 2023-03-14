@@ -58,7 +58,7 @@ REM Stop the Remote Desktop service
 Net stop TermService 
 cls
 echo [ESP]
-echo Si está el servicio aun iniciado, fallara, por lo que no se podra continuar.
+echo Si esta el servicio aun iniciado, fallara, por lo que no se podra continuar.
 echo Si falla, hay que reiniciar el equipo.
 echo .
 echo [ENG]
@@ -144,7 +144,7 @@ REM Stop the Remote Desktop service
 Net stop TermService 
 cls
 echo [ESP]
-echo Si está el servicio aun iniciado, fallara, por lo que no se podra continuar.
+echo Si esta el servicio aun iniciado, fallara, por lo que no se podra continuar.
 echo Si falla, hay que reiniciar el equipo.
 echo .
 echo [ENG]
