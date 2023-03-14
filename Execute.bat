@@ -110,7 +110,7 @@ echo [ESP]
 echo .
 echo Edite con un editor HEX el "termsrv.dll" (Ejemplo con HxD)
 echo .
-echo Reemplace la línea "39 81 3C 06 00 00 0F 84 XX XX XX XX"
+echo Reemplace la linea "39 81 3C 06 00 00 0F 84 XX XX XX XX"
 echo .
 echo con "B8 00 01 00 00 89 81 38 06 00 00 90"
 echo .
