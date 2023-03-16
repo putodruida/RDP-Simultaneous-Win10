@@ -1,8 +1,4 @@
-
-############################################################################################
-
-
-[ESP]
+# [ESP]
 
 
 1. Ejecutar el "Execute.bat" con doble clic.
@@ -32,10 +28,7 @@ NOTA: Si está el servicio aun iniciado, fallara, por lo que no se podra continu
 * El editor (por ejemplo) HxD puede encontrarse en: https://mh-nexus.de/en/downloads.php?product=HxD20 (Todos los creditos a sus creadores).
 
 
-############################################################################################
-
-
-[ENG]
+# [ENG]
 
 
 1. Run the "Execute.bat" with double click.
@@ -64,5 +57,3 @@ NOTE: If the service is still started, it will fail, so it will not be possible 
 
 * The editor (for example) HxD can be found at: https://mh-nexus.de/en/downloads.php?product=HxD20 (All credits to their creators).
 
-
-############################################################################################
