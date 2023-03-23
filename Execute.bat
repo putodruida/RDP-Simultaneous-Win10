@@ -1,6 +1,7 @@
 @echo off
 
 REM .bat con permisos de administrador
+REM .bat with administrator permissions
 :-------------------------------------
 REM --> Analizando los permisos
 IF "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
@@ -9,14 +10,14 @@ IF "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 )
 
-REM --> Si hay error es que no hay permisos de administrador.
+REM --> If there is an error, it means that there are no administrator permissions.
 if '%errorlevel%' NEQ '0' (
 
-REM no se muestra --> echo Solicitando permisos de administrador... 
+REM not shown --> echo Solicitando permisos de administrador... 
 
-REM no se muestra --> echo Requesting administrative privileges... 
+REM not shown --> echo Requesting administrative privileges... 
 
-REM no se muestra --> echo Anfordern Administratorrechte ...
+REM not shown --> echo Anfordern Administratorrechte ...
 
 goto UACPrompt
 ) else ( goto gotAdmin )
@@ -34,6 +35,7 @@ exit /B
 pushd "%CD%"
 CD /D "%~dp0"
 :--------------------------------------
+cls
 
 echo ******************************************************************************************
 echo .
