@@ -68,18 +68,22 @@ echo If the service is still started, it will fail, so it will not be possible t
 echo If it fails, you have to restart the computer.
 echo .
 PAUSE
+cls
 REM Elimina el archivo. SI ESTA EN USO, fallara.
 REM Delete the file. IF IN USE, it will fail.
+echo Deleting the original termsrv.dll ...
 del /s /q "c:\Windows\System32\termsrv.dll"
-
+cls
 REM Copia el editado
 REM Copy the edited
+echo Copying edited termsrv.dll ...
 COPY /Y "C:\DISCOS\RDP Simultaneos Win10\EDITED\termsrv.dll" "c:\Windows\System32"
-
+cls
 REM Inicia el servico de Escritorio Remoto
 REM Start the Remote Desktop service
 Net start TermService
 
+cls
 echo EL EQUIPO SE REINICIARA...
 echo.
 echo THE EQUIPMENT WILL RESTART...
@@ -143,7 +147,7 @@ move "C:\DISCOS\RDP Simultaneos Win10\termsrv.dll" "C:\DISCOS\RDP Simultaneos Wi
 
 REM Detiene el servico de Escritorio Remoto
 REM Stop the Remote Desktop service
-Net stop TermService 
+Net stop TermService
 cls
 echo [ESP]
 echo Si esta el servicio aun iniciado, fallara, por lo que no se podra continuar.
@@ -154,14 +158,17 @@ echo If the service is still started, it will fail, so it will not be possible t
 echo If it fails, you have to restart the computer.
 echo .
 PAUSE
+cls
 REM Elimina el archivo. SI ESTA EN USO, fallara.
 REM Delete the file. IF IN USE, it will fail.
+echo Deleting the original termsrv.dll ...
 del /s /q "c:\Windows\System32\termsrv.dll"
-
+cls
 REM Copia el editado
 REM Copy the edited
+echo Copying edited termsrv.dll ...
 COPY /Y "C:\DISCOS\RDP Simultaneos Win10\EDITED\termsrv.dll" "c:\Windows\System32"
-
+cls
 REM Inicia el servico de Escritorio Remoto
 REM Start the Remote Desktop service
 Net start TermService
